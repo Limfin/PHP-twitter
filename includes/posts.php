@@ -5,7 +5,7 @@ if ($posts) {
 ?>
 <section class="wrapper">
 	<ul class="tweet-list">
-		<?php foreach() { ?>
+		<?php //foreach() { ?>
 		<li>
 			<article class="tweet">
 				<div class="row">
@@ -35,6 +35,6 @@ if ($posts) {
 		<?php } ?>
 	</ul>
 </section>
-<?php } else {
+<?php //} else {
 	echo "Постов нет";
-}?>
+//}?>
